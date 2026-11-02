@@ -1,0 +1,82 @@
+E-COMMERCE CATALOGUE AND TRAFFIC ANALYSIS
+SOURCE EXECUTION OUTPUT
+=================================================
+
+-------------------------------------------------
+BINARY SEARCH TREE
+-------------------------------------------------
+Inserted categories: 15
+Inorder: Appliances Beauty Books Electronics Fashion Footwear Furniture Gaming Grocery Home Jewellery Laptops Mobiles Sports Toys
+Preorder: Electronics Books Beauty Appliances Fashion Home Grocery Furniture Footwear Gaming Sports Mobiles Laptops Jewellery Toys
+Postorder: Appliances Beauty Books Footwear Gaming Furniture Grocery Jewellery Laptops Mobiles Toys Sports Home Fashion Electronics
+Search Mobiles: true
+Search Automotive: false
+
+Result:
+- 15 categories inserted.
+- Mobiles was found.
+- Automotive was not found.
+- Inorder, Preorder and Postorder traversals were displayed.
+
+-------------------------------------------------
+HASH TABLE AND HASHMAP
+-------------------------------------------------
+Collision demo: hash(Aa)=2112, hash(BB)=2112
+Chain length after inserting both keys: 2
+Lookup BB: 2
+Custom chained table lookup: 17.342 ms
+Built-in HashMap lookup: 19.009 ms
+Checksum: 29999700000
+Note: timings vary by machine and JVM; this is a simple demonstration,
+not a formal benchmark.
+
+Result:
+- Two different keys with the same Java String hash code were inserted.
+- Separate chaining stored both entries in the same bucket.
+- Lookup of BB returned 2.
+- 100,000 SKU lookups were benchmarked in both implementations.
+
+Benchmark note:
+The timing values above are from one execution environment. Do not present
+them as guaranteed results. Capture your own IntelliJ console output and
+replace these timing values with the values from your laptop.
+
+-------------------------------------------------
+GRAPH: MICROSERVICE DEPENDENCIES
+-------------------------------------------------
+BFS from cart: cart pricing inventory payment notification
+DFS from cart: cart pricing inventory payment notification
+Deployment order: [cart, catalogue, pricing, inventory, payment, notification]
+Cycle detected: false
+After adding notification -> cart, cycle detected: true
+Deployment order: Not possible - circular dependency
+
+Result:
+- BFS and DFS traversals completed.
+- A valid topological deployment order was produced for the acyclic graph.
+- A cycle was detected after adding notification -> cart.
+
+-------------------------------------------------
+SLIDING WINDOW
+-------------------------------------------------
+Busiest 3-hour window: 14:00 to 17:00
+Total requests in window: 18100
+Average requests per minute: 100.56
+
+Result:
+The maximum sum of three consecutive hourly traffic values was 18,100.
+The selected window starts at 14:00 and ends at 17:00.
+
+-------------------------------------------------
+TWO POINTERS
+-------------------------------------------------
+Target gift-card value: 100
+Matching pairs:
+10 + 90 = 100
+20 + 80 = 100
+30 + 70 = 100
+40 + 60 = 100
+
+Result:
+Four pairs in the sorted input add up to the target value of 100.
+
