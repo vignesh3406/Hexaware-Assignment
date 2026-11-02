@@ -1,0 +1,93 @@
+============================================================
+ TASK 1 – LINEAR SEARCH AND BINARY SEARCH
+============================================================
+
+Total orders loaded: 50015
+
+— Linear Search — Order ID: ORD025000 Customer ID: CUST03047 Amount:
+1137.13 Created At: 2026-03-12 08:32:01
+
+— Binary Search — Order ID: ORD025000 Customer ID: CUST03047 Amount:
+1137.13 Created At: 2026-03-12 08:32:01
+
+— Search Benchmark — Linear Search: 548.798 ms Binary Search: 1.053 ms
+Binary Search speed ratio: 521.32 times
+
+Process finished with exit code 0
+
+============================================================
+TASK 2 – BUBBLE SORT, MERGE SORT AND BUILT-IN SORT
+============================================================
+
+Total orders loaded: 50000
+
+Orders selected for sorting: 10000
+
+— Bubble Sort Trace — Original: [5000, 1200, 8500, 3000, 6500] Pass 1:
+[5000, 8500, 3000, 6500, 1200] Pass 2: [8500, 5000, 6500, 3000, 1200]
+Pass 3: [8500, 6500, 5000, 3000, 1200]
+
+— Sorting Benchmark — Bubble Sort: 253.388 ms Merge Sort: 3.283 ms
+Built-in Sort: 14.074 ms All sorting results match: true
+
+— Top 5 Orders by Amount — ORD005402 | CUST00997 | 2499.83 ORD007404 |
+CUST05878 | 2499.83 ORD008171 | CUST00421 | 2499.63 ORD002016 |
+CUST07983 | 2499.40 ORD004299 | CUST07804 | 2499.31
+
+Process finished with exit code 0
+
+============================================================
+TASK 3 – DUPLICATE ORDER DETECTION USING HASHMAP
+============================================================
+
+Total orders loaded: 50015 — Duplicate Orders — Duplicate found:
+ORD000012 and ORD000012 Duplicate found: ORD000013 and ORD000013
+Duplicate found: ORD000014 and ORD000014 Duplicate found: ORD000015 and
+ORD000015 Duplicate found: ORD000016 and ORD000016 Duplicate found:
+ORD000012 and ORD000012 Duplicate found: ORD000013 and ORD000013
+Duplicate found: ORD000014 and ORD000014 Duplicate found: ORD000015 and
+ORD000015 Duplicate found: ORD000016 and ORD000016 Duplicate found:
+ORD000012 and ORD000012 Duplicate found: ORD000013 and ORD000013
+Duplicate found: ORD000014 and ORD000014 Duplicate found: ORD000015 and
+ORD000015 Duplicate found: ORD000016 and ORD000016
+
+Total duplicate orders found: 15
+
+Process finished with exit code 0
+
+============================================================
+TASK 4 – CUSTOM STACK AND QUEUE
+============================================================
+
+— Own Stack: Undo Order Edit — Undo operation: Order status changed Undo
+operation: Order address changed
+
+— Built-in Stack Alternative — Undo operation: Order status changed Undo
+operation: Order address changed
+
+— Own Queue: Dispatch Line — Dispatch order: ORD001 Dispatch order:
+ORD002
+
+— Built-in Queue Alternative — Dispatch order: ORD001 Dispatch order:
+ORD002
+
+Process finished with exit code 0
+
+============================================================
+TASK 5 – GREEDY ALGORITHM AND DYNAMIC PROGRAMMING
+============================================================
+
+Refund Amount: 93 — Greedy Algorithm — 50 x 1 20 x 2 2 x 1 1 x 1 Minimum
+notes/coins (Greedy): 5
+
+Refund Amount: 6 — Greedy Algorithm — 4 x 1 1 x 2 Minimum notes/coins
+(Greedy): 3
+
+— Dynamic Programming — Minimum notes/coins (DP): 2 Selected
+denominations: 3 3
+
+Process finished with exit code 0
+
+============================================================
+END OF OUTPUT DOCUMENT
+============================================================
